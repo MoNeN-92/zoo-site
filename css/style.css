@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Nino;
+  src: url(/font/bpg_nino_mtavruli_bold.ttf);
+}
+a {
+  text-decoration: none;
+}
+
+.sub-nav {
+  background-color: #383a34;
+  z-index: 1;
+  opacity: 0.8;
+  border-bottom: 1px solid #6a6a6a;
+}
+
+.lang a, .menu a {
+  font-family: Nino;
+  font-size: 15px;
+  color: #fff;
+  line-height: initial;
+  display: inline-block;
+  padding: 15px 0px 11px;
+}
+.lang a:not(.lang a), .menu a:not(.lang a) {
+  padding: 15px 13px 11px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-link {
+  font-family: Nino;
+  font-size: 17px;
+  color: #6b6b6b;
+}
+.nav-link img {
+  margin-right: 12px;
+}
+
+.nav-item:first-child img {
+  position: relative;
+  top: -8px;
+  right: -9px;
+}
+
+.navbar {
+  z-index: 1;
+  top: 44px;
+}
+
+.dog {
+  top: -3px;
+}
+
+.cat {
+  margin-bottom: 3px;
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1190px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
