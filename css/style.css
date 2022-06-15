@@ -2,6 +2,10 @@
   font-family: Nino;
   src: url(/font/bpg_nino_mtavruli_bold.ttf);
 }
+@font-face {
+  font-family: arial;
+  src: url(/font/bpg_arial_2009.ttf);
+}
 a {
   text-decoration: none;
 }
@@ -55,6 +59,39 @@ a {
 
 .cat {
   margin-bottom: 3px;
+}
+
+.fish {
+  margin-top: 1px;
+}
+
+.mystyletext {
+  font-family: Nino;
+  top: 400px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.ptext p {
+  margin-top: 24px;
+  font-size: 19px;
+  color: #d2d6c7;
+  font-family: arial;
+}
+
+.my-btn-style {
+  background-color: #e23848;
+  border-radius: 0 0 0 0;
+  width: 188px;
+  height: 49px;
+}
+.my-btn-style a {
+  margin-top: 3px;
+  font-family: Nino;
+}
+
+.my-back-style {
+  background-color: #f0f2eb;
 }
 
 @media (min-width: 1400px) {
